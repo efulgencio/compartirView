@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410C53BE1C579AB30025FFD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C53BD1C579AB30025FFD0 /* main.m */; };
+		410C53C11C579AB30025FFD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C53C01C579AB30025FFD0 /* AppDelegate.m */; };
+		410C53C41C579AB30025FFD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C53C31C579AB30025FFD0 /* ViewController.m */; };
+		410C53C71C579AB30025FFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410C53C51C579AB30025FFD0 /* Main.storyboard */; };
+		410C53C91C579AB30025FFD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410C53C81C579AB30025FFD0 /* Assets.xcassets */; };
+		410C53CC1C579AB30025FFD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410C53CA1C579AB30025FFD0 /* LaunchScreen.storyboard */; };
+		410C53D71C579AB30025FFD0 /* CompartirViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C53D61C579AB30025FFD0 /* CompartirViewTests.m */; };
+		410C53E21C579AB30025FFD0 /* CompartirViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C53E11C579AB30025FFD0 /* CompartirViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		410C53D31C579AB30025FFD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410C53B11C579AB20025FFD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410C53B81C579AB30025FFD0;
+			remoteInfo = CompartirView;
+		};
+		410C53DE1C579AB30025FFD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410C53B11C579AB20025FFD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410C53B81C579AB30025FFD0;
+			remoteInfo = CompartirView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410C53B91C579AB30025FFD0 /* CompartirView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompartirView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410C53BD1C579AB30025FFD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		410C53BF1C579AB30025FFD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		410C53C01C579AB30025FFD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		410C53C21C579AB30025FFD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		410C53C31C579AB30025FFD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		410C53C61C579AB30025FFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		410C53C81C579AB30025FFD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410C53CB1C579AB30025FFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410C53CD1C579AB30025FFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410C53D21C579AB30025FFD0 /* CompartirViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompartirViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410C53D61C579AB30025FFD0 /* CompartirViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompartirViewTests.m; sourceTree = "<group>"; };
+		410C53D81C579AB30025FFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410C53DD1C579AB30025FFD0 /* CompartirViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompartirViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		410C53E11C579AB30025FFD0 /* CompartirViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompartirViewUITests.m; sourceTree = "<group>"; };
+		410C53E31C579AB30025FFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410C53B61C579AB30025FFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C53CF1C579AB30025FFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C53DA1C579AB30025FFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410C53B01C579AB20025FFD0 = {
+			isa = PBXGroup;
+			children = (
+				410C53BB1C579AB30025FFD0 /* CompartirView */,
+				410C53D51C579AB30025FFD0 /* CompartirViewTests */,
+				410C53E01C579AB30025FFD0 /* CompartirViewUITests */,
+				410C53BA1C579AB30025FFD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410C53BA1C579AB30025FFD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410C53B91C579AB30025FFD0 /* CompartirView.app */,
+				410C53D21C579AB30025FFD0 /* CompartirViewTests.xctest */,
+				410C53DD1C579AB30025FFD0 /* CompartirViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410C53BB1C579AB30025FFD0 /* CompartirView */ = {
+			isa = PBXGroup;
+			children = (
+				410C53BF1C579AB30025FFD0 /* AppDelegate.h */,
+				410C53C01C579AB30025FFD0 /* AppDelegate.m */,
+				410C53C21C579AB30025FFD0 /* ViewController.h */,
+				410C53C31C579AB30025FFD0 /* ViewController.m */,
+				410C53C51C579AB30025FFD0 /* Main.storyboard */,
+				410C53C81C579AB30025FFD0 /* Assets.xcassets */,
+				410C53CA1C579AB30025FFD0 /* LaunchScreen.storyboard */,
+				410C53CD1C579AB30025FFD0 /* Info.plist */,
+				410C53BC1C579AB30025FFD0 /* Supporting Files */,
+			);
+			path = CompartirView;
+			sourceTree = "<group>";
+		};
+		410C53BC1C579AB30025FFD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				410C53BD1C579AB30025FFD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		410C53D51C579AB30025FFD0 /* CompartirViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				410C53D61C579AB30025FFD0 /* CompartirViewTests.m */,
+				410C53D81C579AB30025FFD0 /* Info.plist */,
+			);
+			path = CompartirViewTests;
+			sourceTree = "<group>";
+		};
+		410C53E01C579AB30025FFD0 /* CompartirViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				410C53E11C579AB30025FFD0 /* CompartirViewUITests.m */,
+				410C53E31C579AB30025FFD0 /* Info.plist */,
+			);
+			path = CompartirViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410C53B81C579AB30025FFD0 /* CompartirView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410C53E61C579AB30025FFD0 /* Build configuration list for PBXNativeTarget "CompartirView" */;
+			buildPhases = (
+				410C53B51C579AB30025FFD0 /* Sources */,
+				410C53B61C579AB30025FFD0 /* Frameworks */,
+				410C53B71C579AB30025FFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompartirView;
+			productName = CompartirView;
+			productReference = 410C53B91C579AB30025FFD0 /* CompartirView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		410C53D11C579AB30025FFD0 /* CompartirViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410C53E91C579AB30025FFD0 /* Build configuration list for PBXNativeTarget "CompartirViewTests" */;
+			buildPhases = (
+				410C53CE1C579AB30025FFD0 /* Sources */,
+				410C53CF1C579AB30025FFD0 /* Frameworks */,
+				410C53D01C579AB30025FFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410C53D41C579AB30025FFD0 /* PBXTargetDependency */,
+			);
+			name = CompartirViewTests;
+			productName = CompartirViewTests;
+			productReference = 410C53D21C579AB30025FFD0 /* CompartirViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		410C53DC1C579AB30025FFD0 /* CompartirViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410C53EC1C579AB30025FFD0 /* Build configuration list for PBXNativeTarget "CompartirViewUITests" */;
+			buildPhases = (
+				410C53D91C579AB30025FFD0 /* Sources */,
+				410C53DA1C579AB30025FFD0 /* Frameworks */,
+				410C53DB1C579AB30025FFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410C53DF1C579AB30025FFD0 /* PBXTargetDependency */,
+			);
+			name = CompartirViewUITests;
+			productName = CompartirViewUITests;
+			productReference = 410C53DD1C579AB30025FFD0 /* CompartirViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410C53B11C579AB20025FFD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "eduardo fulgencio";
+				TargetAttributes = {
+					410C53B81C579AB30025FFD0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					410C53D11C579AB30025FFD0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 410C53B81C579AB30025FFD0;
+					};
+					410C53DC1C579AB30025FFD0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 410C53B81C579AB30025FFD0;
+					};
+				};
+			};
+			buildConfigurationList = 410C53B41C579AB20025FFD0 /* Build configuration list for PBXProject "CompartirView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410C53B01C579AB20025FFD0;
+			productRefGroup = 410C53BA1C579AB30025FFD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410C53B81C579AB30025FFD0 /* CompartirView */,
+				410C53D11C579AB30025FFD0 /* CompartirViewTests */,
+				410C53DC1C579AB30025FFD0 /* CompartirViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410C53B71C579AB30025FFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410C53CC1C579AB30025FFD0 /* LaunchScreen.storyboard in Resources */,
+				410C53C91C579AB30025FFD0 /* Assets.xcassets in Resources */,
+				410C53C71C579AB30025FFD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C53D01C579AB30025FFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C53DB1C579AB30025FFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410C53B51C579AB30025FFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410C53C41C579AB30025FFD0 /* ViewController.m in Sources */,
+				410C53C11C579AB30025FFD0 /* AppDelegate.m in Sources */,
+				410C53BE1C579AB30025FFD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C53CE1C579AB30025FFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410C53D71C579AB30025FFD0 /* CompartirViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410C53D91C579AB30025FFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410C53E21C579AB30025FFD0 /* CompartirViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		410C53D41C579AB30025FFD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410C53B81C579AB30025FFD0 /* CompartirView */;
+			targetProxy = 410C53D31C579AB30025FFD0 /* PBXContainerItemProxy */;
+		};
+		410C53DF1C579AB30025FFD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410C53B81C579AB30025FFD0 /* CompartirView */;
+			targetProxy = 410C53DE1C579AB30025FFD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		410C53C51C579AB30025FFD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410C53C61C579AB30025FFD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		410C53CA1C579AB30025FFD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410C53CB1C579AB30025FFD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410C53E41C579AB30025FFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		410C53E51C579AB30025FFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410C53E71C579AB30025FFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CompartirView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.CompartirView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		410C53E81C579AB30025FFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CompartirView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.CompartirView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		410C53EA1C579AB30025FFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CompartirViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.CompartirViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompartirView.app/CompartirView";
+			};
+			name = Debug;
+		};
+		410C53EB1C579AB30025FFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CompartirViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.CompartirViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompartirView.app/CompartirView";
+			};
+			name = Release;
+		};
+		410C53ED1C579AB30025FFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CompartirViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.CompartirViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CompartirView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		410C53EE1C579AB30025FFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CompartirViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.CompartirViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CompartirView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410C53B41C579AB20025FFD0 /* Build configuration list for PBXProject "CompartirView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410C53E41C579AB30025FFD0 /* Debug */,
+				410C53E51C579AB30025FFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410C53E61C579AB30025FFD0 /* Build configuration list for PBXNativeTarget "CompartirView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410C53E71C579AB30025FFD0 /* Debug */,
+				410C53E81C579AB30025FFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		410C53E91C579AB30025FFD0 /* Build configuration list for PBXNativeTarget "CompartirViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410C53EA1C579AB30025FFD0 /* Debug */,
+				410C53EB1C579AB30025FFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		410C53EC1C579AB30025FFD0 /* Build configuration list for PBXNativeTarget "CompartirViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410C53ED1C579AB30025FFD0 /* Debug */,
+				410C53EE1C579AB30025FFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410C53B11C579AB20025FFD0 /* Project object */;
+}
