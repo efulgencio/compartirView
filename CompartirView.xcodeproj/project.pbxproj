@@ -15,6 +15,9 @@
 		410C53CC1C579AB30025FFD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410C53CA1C579AB30025FFD0 /* LaunchScreen.storyboard */; };
 		410C53D71C579AB30025FFD0 /* CompartirViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C53D61C579AB30025FFD0 /* CompartirViewTests.m */; };
 		410C53E21C579AB30025FFD0 /* CompartirViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C53E11C579AB30025FFD0 /* CompartirViewUITests.m */; };
+		410C53F11C579B320025FFD0 /* CajaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 410C53F01C579B320025FFD0 /* CajaView.m */; };
+		410C53F31C579B8D0025FFD0 /* Caja.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410C53F21C579B8D0025FFD0 /* Caja.xib */; };
+		41AA32D31C5816910059F5A5 /* ViewControllerDos.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AA32D21C5816910059F5A5 /* ViewControllerDos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		410C53DD1C579AB30025FFD0 /* CompartirViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompartirViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		410C53E11C579AB30025FFD0 /* CompartirViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompartirViewUITests.m; sourceTree = "<group>"; };
 		410C53E31C579AB30025FFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410C53EF1C579B320025FFD0 /* CajaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CajaView.h; sourceTree = "<group>"; };
+		410C53F01C579B320025FFD0 /* CajaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CajaView.m; sourceTree = "<group>"; };
+		410C53F21C579B8D0025FFD0 /* Caja.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Caja.xib; sourceTree = "<group>"; };
+		41AA32D11C5816910059F5A5 /* ViewControllerDos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDos.h; sourceTree = "<group>"; };
+		41AA32D21C5816910059F5A5 /* ViewControllerDos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +113,10 @@
 				410C53C01C579AB30025FFD0 /* AppDelegate.m */,
 				410C53C21C579AB30025FFD0 /* ViewController.h */,
 				410C53C31C579AB30025FFD0 /* ViewController.m */,
-				410C53C51C579AB30025FFD0 /* Main.storyboard */,
-				410C53C81C579AB30025FFD0 /* Assets.xcassets */,
-				410C53CA1C579AB30025FFD0 /* LaunchScreen.storyboard */,
-				410C53CD1C579AB30025FFD0 /* Info.plist */,
+				41AA32D11C5816910059F5A5 /* ViewControllerDos.h */,
+				41AA32D21C5816910059F5A5 /* ViewControllerDos.m */,
+				410C53EF1C579B320025FFD0 /* CajaView.h */,
+				410C53F01C579B320025FFD0 /* CajaView.m */,
 				410C53BC1C579AB30025FFD0 /* Supporting Files */,
 			);
 			path = CompartirView;
@@ -117,6 +125,11 @@
 		410C53BC1C579AB30025FFD0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				410C53C81C579AB30025FFD0 /* Assets.xcassets */,
+				410C53CD1C579AB30025FFD0 /* Info.plist */,
+				410C53CA1C579AB30025FFD0 /* LaunchScreen.storyboard */,
+				410C53C51C579AB30025FFD0 /* Main.storyboard */,
+				410C53F21C579B8D0025FFD0 /* Caja.xib */,
 				410C53BD1C579AB30025FFD0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410C53F31C579B8D0025FFD0 /* Caja.xib in Resources */,
 				410C53CC1C579AB30025FFD0 /* LaunchScreen.storyboard in Resources */,
 				410C53C91C579AB30025FFD0 /* Assets.xcassets in Resources */,
 				410C53C71C579AB30025FFD0 /* Main.storyboard in Resources */,
@@ -273,6 +287,8 @@
 				410C53C41C579AB30025FFD0 /* ViewController.m in Sources */,
 				410C53C11C579AB30025FFD0 /* AppDelegate.m in Sources */,
 				410C53BE1C579AB30025FFD0 /* main.m in Sources */,
+				410C53F11C579B320025FFD0 /* CajaView.m in Sources */,
+				41AA32D31C5816910059F5A5 /* ViewControllerDos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +512,7 @@
 				410C53E81C579AB30025FFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		410C53E91C579AB30025FFD0 /* Build configuration list for PBXNativeTarget "CompartirViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				410C53EB1C579AB30025FFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		410C53EC1C579AB30025FFD0 /* Build configuration list for PBXNativeTarget "CompartirViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				410C53EE1C579AB30025FFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

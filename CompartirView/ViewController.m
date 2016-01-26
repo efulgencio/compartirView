@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CajaView.h"
+
 
 @interface ViewController ()
 
@@ -15,8 +17,14 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    
+    CajaView *cajaView2 = [[CajaView alloc]initWithFrame:CGRectMake(10, 140, 265, 66)];
+    [self.view addSubview:cajaView2];
+    
 }
 
 - (void)didReceiveMemoryWarning {
